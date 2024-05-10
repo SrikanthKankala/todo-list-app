@@ -1,0 +1,41 @@
+
+/* C:\Users\kanka\All-Frontend\todo-list-app\src\styles\button.css */
+
+
+.button {
+  position: relative; /* Ensure relative positioning for pseudo-element */
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #28a745; /* Default background color */
+  color: #fff; /* Default text color */
+}
+
+.button.big {
+  padding: 12px 24px;
+  font-size: 16px;
+  height: 20px;
+}
+
+.button.small {
+  padding: 6px 12px;
+  font-size: 12px;
+  height: 20px;
+}
+
+/* Pseudo-element for cross symbol */
+.button::after {
+  content: '×'; /* Unicode character for cross symbol (×) */
+  position: absolute;
+  text-align: center;
+  top: 50%; /* Position vertically centered */
+  right: 9px; /* Adjust as needed for positioning */
+  transform: translateY(-50%);
+  text-align: center;
+  align-items: center;
+}
+
+

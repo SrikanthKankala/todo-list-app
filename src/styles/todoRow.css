@@ -1,0 +1,19 @@
+
+/* C:\Users\kanka\All-Frontend\todo-list-app\src\styles\todoRow.css */
+
+.todo-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    /* border-bottom: 1px solid #ddd; */
+  }
+  
+  .todo-row:hover .button {
+    display: block;
+  }
+  
+  .button {
+    display: none;
+  }
+  

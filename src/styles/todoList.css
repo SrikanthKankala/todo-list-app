@@ -1,0 +1,93 @@
+
+
+/* C:\Users\kanka\All-Frontend\todo-list-app\src\styles\todoList.css */
+
+
+
+.todo-list-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-list-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .todo-list-header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .todo-list-form {
+    display: flex;
+    margin-bottom: 20px;
+    border-top: 2px solid #ddd;
+    padding-top: 10px; /* Adjust padding to create gap after border-top */
+  }
+  
+  .todo-list-form input[type='text'] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgb(216, 210, 210);
+  }
+  
+  .todo-list-form button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-item-label {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .todo-item-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-item-actions button {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
